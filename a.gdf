@@ -1,0 +1,41 @@
+nodedef>name VARCHAR, label VARCHAR, idLattes VARCHAR, grandeArea VARCHAR, area VARCHAR, instituicao VARCHAR, orgao VARCHAR, pais VARCHAR, estado VARCHAR, cidade VARCHAR, cep VARCHAR, cvdata VARCHAR, foto VARCHAR,eh_semente BOOLEAN,eh_ascendente BOOLEAN,eh_descendente BOOLEAN
+1713232,Gustavo de Oliveira Almeida,3691130692268611,Ciencias Sociais Aplicadas,Administração,Fundação Getúlio Vargas,Escola Brasileira de Administração Pública E de Empresas,Brasil,Rj,Rio de Janeiro,20748900,29/01/2017,,None,None,None
+3567613,Eber Lopes de Moraes,7767245019922364,Engenharias,Engenharia Civil,,,,,,,10/02/2017,,None,None,None
+3044598,Marta Maria Coelho Damasceno,6589878915501349,Ciencias da Saude,Enfermagem,Universidade Federal do Ceará,Faculdade de Farmácia Odontologia E Enfermagem,Brasil,Ce,Fortaleza,60430160,28/10/2016,,None,None,None
+4038671,Renata Maria Facuri Coelho Marchezan,8827698477373212,Linguistica Letras E Artes,Lingüística,Universidade Estadual Paulista Júlio de Mesquita Filho,Faculdade de Ciências E Letras Campus de Araraquara,Brasil,Sp,Araraquara,14800901,30/01/2017,,None,None,None
+edgedef>node1 VARCHAR, node2 VARCHAR, nivelOrientacao VARCHAR, tipoOrientacao VARCHAR, anoInicio DOUBLE, anoConclusao DOUBLE, node1Nome VARCHAR, node2Nome VARCHAR, directed BOOLEAN
+1791174,1713232,doutorado,orientador,2009,2013,Deborah Moraes Zouain,Gustavo de Oliveira Almeida,true
+3583255,3567613,doutorado,orientador,1998,2003,Podalyro Amaral de Souza,Eber Lopes de Moraes,true
+1460784,3044598,doutorado,orientador,1993,1996,Ivis Emília de Oliveira Souza,Marta Maria Coelho Damasceno,true
+3044598,610836,doutorado,orientador,,2014,Marta Maria Coelho Damasceno,Niciane Bandeira Pessoa Marinho,true
+3044598,754299,doutorado,orientador,,2002,Marta Maria Coelho Damasceno,Zuila Maria de Figueirêdo Carvalho,true
+3044598,952924,doutorado,orientador,2007,2009,Marta Maria Coelho Damasceno,Ana Roberta Vilarouca da Silva,true
+3044598,1048341,doutorado,orientador,,2013,Marta Maria Coelho Damasceno,Ana Maria Parente Garcia Alencar,true
+3044598,1161206,doutorado,orientador,,2002,Marta Maria Coelho Damasceno,Lúcia de Fátima da Silva,true
+3044598,1653916,doutorado,orientador,,2012,Marta Maria Coelho Damasceno,Márcio Flávio Moura de Araújo,true
+3044598,2052118,doutorado,orientador,2003,2007,Marta Maria Coelho Damasceno,Vitória de Cássia Félix de Almeida,true
+3044598,2550699,doutorado,orientador,,2011,Marta Maria Coelho Damasceno,Hérica Cristina Alves de Vasconcelos,true
+3044598,3150284,doutorado,orientador,,2013,Marta Maria Coelho Damasceno,Roberto Wagner Júnior Freire de Freitas,true
+3044598,3449229,doutorado,orientador,,2014,Marta Maria Coelho Damasceno,Maria Amélia de Souza,true
+3044598,3544457,doutorado,orientador,,2004,Marta Maria Coelho Damasceno,Márcia Barroso Camilo de Ataíde,true
+3044598,3609513,doutorado,orientador,2000,2003,Marta Maria Coelho Damasceno,Zenilda Nogueira Sales,true
+3044598,4298765,doutorado,orientador,,2003,Marta Maria Coelho Damasceno,Francisca Nellie de Paula Melo,true
+3044598,4300331,doutorado,orientador,,2008,Marta Maria Coelho Damasceno,Sarah Maria Fraxe Pessoa,true
+4038671,40995,doutorado,orientador,2005,2009,Renata Maria Facuri Coelho Marchezan,Grenissa Bonvino Stafuzza,true
+4038671,179740,doutorado,orientador,2011,2015,Renata Maria Facuri Coelho Marchezan,Levi Henrique Merenciano,true
+4038671,1104372,doutorado,orientador,2008,2012,Renata Maria Facuri Coelho Marchezan,Claudiana Nair Pothin Narzetti Costa,true
+4038671,1154312,doutorado,orientador,2008,2011,Renata Coelho Marchezan,Camila de Araujo Beraldo Ludovice,true
+4038671,1296477,doutorado,orientador,2007,2011,Renata Maria Facuri Coelho Marchezan,Assunção Aparecida Laia Cristóvão,true
+4038671,1361210,doutorado,orientador,,2004,Renata Maria Facuri Coelho Marchezan,Rinaldo Guariglia,true
+4038671,1941930,doutorado,orientador,2005,2009,Renata Maria Facuri Coelho Marchezan,Angela Antonia Lopes Biudes Gatarossa,true
+4038671,1999019,doutorado,orientador,,2011,Renata Maria Facuri Coelho Marchezan,Klaútenys Dellene Guedes Cutrim,true
+4038671,2060398,doutorado,orientador,2012,2016,Renata Maria Facuri Coelho Marchezan,José Cezinaldo Rocha Bessa,true
+4038671,2066708,doutorado,orientador,2003,2007,Renata Maria Facuri Coelho Marchezan,Erislane Rodrigues Ribeiro,true
+4038671,2569208,doutorado,orientador,2011,2015,Renata Maria Coelho Marchezan,Eneida Gomes Nalini de Oliveira,true
+4038671,3278299,doutorado,orientador,2010,2014,Renata Coelho Marchezan,Rafael Henrique Palomino,true
+4038671,3336200,doutorado,orientador,,2006,Renata Maria Facuri Coelho Marchezan,Sheila Fernandes Pimenta E Oliveira,true
+4038671,3361018,doutorado,orientador,,2004,Renata Maria Facuri Coelho Marchezan,Ana Lúcia Furquim de Campos,true
+4038671,3759197,doutorado,orientador,2010,2014,Renata Maria Facuri Coelho Marchezan,Ana Cleide Guimbal de Aquino,true
+4038671,4088052,doutorado,orientador,2010,2014,Renata Maria Facuri Coelho Marchezan,Rubens César Baquião,true
+4038671,4360490,doutorado,orientador,2003,2007,Renata Maria Facuri Coelho Marchezan,Luciane de Paula,true
+2199301,4038671,doutorado,orientador,,1997,Diana Luz Pessoa de Barros,Renata Maria Facuri Coelho Marchezan,true
